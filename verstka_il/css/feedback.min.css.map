@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/feedback.sass"
+    ],
+    "names": [],
+    "file": "feedback.min.css"
+}

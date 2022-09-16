@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap')
+a
+    text-decoration: none
+    color: #000
+li
+    list-style: none
+.title
+    width: 230px
+    height: 60px
+    background: #6C8DBA
+    border-radius: 5px
+    display: flex
+    justify-content: center
+    align-items: center
+    h2
+        font-weight: 700
+        font-size: 28px
+        color: #FFFFFF
+button
+    margin-top: 180px
+    margin-right: 20px
+    background: #EB7507
+    width: 300px
+    height: 60px
+    border-radius: 5px
+    border: none
+    font-weight: 700
+    font-size: 22px
+    color: #FFF
+input
+    outline: none
+*
+    margin: 0
+    font-family: 'Montserrat', sans-serif
+
+.container
+    max-width: 1440px
+    margin: 0 auto
+
+// header
+.header
+    padding: 50px 0 150px 0
+    background: url('/img/index/backgroun1.png') center (center / cover) no-repeat
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        nav ul
+            display: flex
+            li
+                margin-left: 50px
+                color: #FFF
+                font-weight: 400
+                font-size: 14px
+                transition: all 0.2s
+            li:hover
+                color: #F4C389
+            a
+                color: #FFF
+                font-weight: 400
+                font-size: 14px
+                transition: all 0.2s
+
+            a:hover
+                color: #F4C389
+.headerLight
+    background: none
+    padding: 50px 0
+    &_wrapper nav ul li a
+        color: #000
+// footer
+.footer
+    padding: 380px 0 40px 0
+    background: url('/img/index/background2.png') center (center / cover) no-repeat
+    &_wrapper
+
+        button
+            margin-top: 40px
+            font-size: 16px
+            width: 200px
+    &_ceil
+        margin-right: 40px
+        height: 225px
+        color: #fff
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &_social
+            display: flex
+            a
+                margin-right: 20px
+                transition: all 0.2s
+                font-size: 24px
+                color: #FFF
+            a:hover
+                color: #EB7507
+
+        h2
+            margin: 0
+            font-weight: 700
+            font-size: 24px
+
+        p
+            margin: 0
+            font-size: 24px
+    &_inner
+        display: flex
+        justify-content: space-between
+    &_ceil_container
+        display: flex
+// form
+.form
+    padding: 50px 0
+    &_error
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 600px
+        height: 80px
+        background-color: #ff4040
+        border-radius: 5px
+        margin-bottom: 25px
+        h2
+            font-weight: 400
+            color:#FFFFFF   
+            font-size: 14px
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .checkbox
+            display: flex
+            input
+                margin-right: 10px
+                width: 25px
+                height: 25px
+            label
+                margin-right: 10px
+                font-size: 16px
+                font-weight: 400
+        form
+            display: flex
+            flex-direction: column
+            label
+                margin-bottom: 50px
+                font-weight: 700
+                font-size: 32px
+            input, textarea
+                color: #FFF
+                padding-left: 40px
+                border: none
+                border-radius: 5px
+                background: #6C8DBA
+                outline: none
+                
+                margin-bottom: 25px
+            input::placeholder
+                color: #FFF
+                font-weight: 400
+                font-size: 16px
+            input
+                width: 600px
+                height: 80px
+            textarea
+                padding: 40px 40px
+            textarea::placeholder
+                color: #FFF
+                font-weight: 400
+                font-size: 16px
+            button
+                width: 250px
+                margin: 0
+                font-weight: 700
+                font-size: 18px
+// contactn for form bron and feedBack
+
+.contact
+    &_wrapper
+    &_ceil_container
+        margin-top: 50px
+        display: flex
+    &_ceil
+        margin-right: 40px
+        height: 200px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &_social
+            display: flex
+            a
+                margin-right: 20px
+                transition: all 0.2s
+                font-size: 24px
+
+            a:hover
+                color: #EB7507
+        h2
+            margin: 0
+            font-weight: 700
+            font-size: 20px
+        p
+            margin: 0
+            font-size: 20px
